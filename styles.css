@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    margin: 20px;
+}
+
+h1 {
+    color: #1f5c56;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #8b6b2e;
+}
+
+p {
+    color: #3d3d3d;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.consecuencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.principios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+table {
+    width: 60%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #fffdf8;
+}
+
+th {
+    background-color: #1f5c56;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid #8b6b2e;
+}
+
+tr:nth-child(even) {
+    background-color: #efe7d7;
+}
+
+tr:hover {
+    background-color: #d8e7e3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #1f5c56;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #1f5c56;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* =========================
+   GALERÍA - CARRUSEL
+========================= */
+
+.galeria {
+    text-align: center;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fffdf8;
+    border: 1px solid #8b6b2e;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.galeria h2 {
+    margin-bottom: 25px;
+}
+
+
+/* Imagen principal */
+.Imagen-Principal {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #1f5c56;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* Contenedor de botones */
+.controles {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.controles button {
+    background-color: #1f5c56;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.controles button:hover {
+    background-color: #8b6b2e;
+    transform: scale(1.05);
+}
+
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
